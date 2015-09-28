@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA3F55391BB98BB1007B5152 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3F55381BB98BB1007B5152 /* UIImage+Additions.m */; };
+		FA9E011C1BB668DB002F8ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9E011B1BB668DB002F8ADB /* main.m */; };
+		FA9E011F1BB668DB002F8ADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9E011E1BB668DB002F8ADB /* AppDelegate.m */; };
+		FA9E01221BB668DB002F8ADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01211BB668DB002F8ADB /* ViewController.m */; };
+		FA9E01251BB668DB002F8ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9E01231BB668DB002F8ADB /* Main.storyboard */; };
+		FA9E01271BB668DB002F8ADB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9E01261BB668DB002F8ADB /* Images.xcassets */; };
+		FA9E012A1BB668DB002F8ADB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9E01281BB668DB002F8ADB /* LaunchScreen.xib */; };
+		FA9E01361BB668DB002F8ADB /* CognitiveCloudsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01351BB668DB002F8ADB /* CognitiveCloudsTests.m */; };
+		FA9E01411BB66F42002F8ADB /* OrderInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01401BB66F42002F8ADB /* OrderInfoCell.m */; };
+		FA9E01441BB66FB1002F8ADB /* TitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01431BB66FB1002F8ADB /* TitleCell.m */; };
+		FAF514191BB6A4240058661A /* OrdersListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF514181BB6A4240058661A /* OrdersListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA9E01301BB668DB002F8ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA9E010E1BB668DB002F8ADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA9E01151BB668DB002F8ADB;
+			remoteInfo = CognitiveClouds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA3F55371BB98BB1007B5152 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		FA3F55381BB98BB1007B5152 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		FA9E01161BB668DB002F8ADB /* CognitiveClouds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CognitiveClouds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9E011A1BB668DB002F8ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9E011B1BB668DB002F8ADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		FA9E011D1BB668DB002F8ADB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		FA9E011E1BB668DB002F8ADB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		FA9E01201BB668DB002F8ADB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		FA9E01211BB668DB002F8ADB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		FA9E01241BB668DB002F8ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA9E01261BB668DB002F8ADB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA9E01291BB668DB002F8ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA9E012F1BB668DB002F8ADB /* CognitiveCloudsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CognitiveCloudsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9E01341BB668DB002F8ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9E01351BB668DB002F8ADB /* CognitiveCloudsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CognitiveCloudsTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		FA9E013F1BB66F42002F8ADB /* OrderInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OrderInfoCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		FA9E01401BB66F42002F8ADB /* OrderInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OrderInfoCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		FA9E01421BB66FB1002F8ADB /* TitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TitleCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		FA9E01431BB66FB1002F8ADB /* TitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TitleCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		FAF514171BB6A4240058661A /* OrdersListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OrdersListViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		FAF514181BB6A4240058661A /* OrdersListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OrdersListViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA9E01131BB668DB002F8ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9E012C1BB668DB002F8ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA78671C1BB7CB7A000E9FFD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA78671E1BB7CBED000E9FFD /* MainViewController */,
+				FA78671D1BB7CBA9000E9FFD /* OrdersViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FA78671D1BB7CBA9000E9FFD /* OrdersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FAF514171BB6A4240058661A /* OrdersListViewController.h */,
+				FAF514181BB6A4240058661A /* OrdersListViewController.m */,
+				FA9E013F1BB66F42002F8ADB /* OrderInfoCell.h */,
+				FA9E01401BB66F42002F8ADB /* OrderInfoCell.m */,
+			);
+			name = OrdersViewController;
+			sourceTree = "<group>";
+		};
+		FA78671E1BB7CBED000E9FFD /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E01201BB668DB002F8ADB /* ViewController.h */,
+				FA9E01211BB668DB002F8ADB /* ViewController.m */,
+				FA9E01421BB66FB1002F8ADB /* TitleCell.h */,
+				FA9E01431BB66FB1002F8ADB /* TitleCell.m */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		FA907BF51BB9A18700591036 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F55371BB98BB1007B5152 /* UIImage+Additions.h */,
+				FA3F55381BB98BB1007B5152 /* UIImage+Additions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		FA907BF61BB9A1B900591036 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E011D1BB668DB002F8ADB /* AppDelegate.h */,
+				FA9E011E1BB668DB002F8ADB /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		FA907BF81BB9A1E000591036 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E01281BB668DB002F8ADB /* LaunchScreen.xib */,
+				FA9E01231BB668DB002F8ADB /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FA9E010D1BB668DB002F8ADB = {
+			isa = PBXGroup;
+			children = (
+				FA9E01181BB668DB002F8ADB /* CognitiveClouds */,
+				FA9E01321BB668DB002F8ADB /* CognitiveCloudsTests */,
+				FA9E01171BB668DB002F8ADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA9E01171BB668DB002F8ADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E01161BB668DB002F8ADB /* CognitiveClouds.app */,
+				FA9E012F1BB668DB002F8ADB /* CognitiveCloudsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA9E01181BB668DB002F8ADB /* CognitiveClouds */ = {
+			isa = PBXGroup;
+			children = (
+				FA907BF61BB9A1B900591036 /* App Delegate */,
+				FA907BF51BB9A18700591036 /* Categories */,
+				FA78671C1BB7CB7A000E9FFD /* ViewControllers */,
+				FA907BF81BB9A1E000591036 /* Views */,
+				FA9E01261BB668DB002F8ADB /* Images.xcassets */,
+				FA9E01191BB668DB002F8ADB /* Supporting Files */,
+			);
+			path = CognitiveClouds;
+			sourceTree = "<group>";
+		};
+		FA9E01191BB668DB002F8ADB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E011A1BB668DB002F8ADB /* Info.plist */,
+				FA9E011B1BB668DB002F8ADB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA9E01321BB668DB002F8ADB /* CognitiveCloudsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E01351BB668DB002F8ADB /* CognitiveCloudsTests.m */,
+				FA9E01331BB668DB002F8ADB /* Supporting Files */,
+			);
+			path = CognitiveCloudsTests;
+			sourceTree = "<group>";
+		};
+		FA9E01331BB668DB002F8ADB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E01341BB668DB002F8ADB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA9E01151BB668DB002F8ADB /* CognitiveClouds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9E01391BB668DB002F8ADB /* Build configuration list for PBXNativeTarget "CognitiveClouds" */;
+			buildPhases = (
+				FA9E01121BB668DB002F8ADB /* Sources */,
+				FA9E01131BB668DB002F8ADB /* Frameworks */,
+				FA9E01141BB668DB002F8ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CognitiveClouds;
+			productName = CognitiveClouds;
+			productReference = FA9E01161BB668DB002F8ADB /* CognitiveClouds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA9E012E1BB668DB002F8ADB /* CognitiveCloudsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9E013C1BB668DB002F8ADB /* Build configuration list for PBXNativeTarget "CognitiveCloudsTests" */;
+			buildPhases = (
+				FA9E012B1BB668DB002F8ADB /* Sources */,
+				FA9E012C1BB668DB002F8ADB /* Frameworks */,
+				FA9E012D1BB668DB002F8ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA9E01311BB668DB002F8ADB /* PBXTargetDependency */,
+			);
+			name = CognitiveCloudsTests;
+			productName = CognitiveCloudsTests;
+			productReference = FA9E012F1BB668DB002F8ADB /* CognitiveCloudsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA9E010E1BB668DB002F8ADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Vinayak Kini";
+				TargetAttributes = {
+					FA9E01151BB668DB002F8ADB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FA9E012E1BB668DB002F8ADB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FA9E01151BB668DB002F8ADB;
+					};
+				};
+			};
+			buildConfigurationList = FA9E01111BB668DB002F8ADB /* Build configuration list for PBXProject "Scroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA9E010D1BB668DB002F8ADB;
+			productRefGroup = FA9E01171BB668DB002F8ADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA9E01151BB668DB002F8ADB /* CognitiveClouds */,
+				FA9E012E1BB668DB002F8ADB /* CognitiveCloudsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA9E01141BB668DB002F8ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9E01251BB668DB002F8ADB /* Main.storyboard in Resources */,
+				FA9E012A1BB668DB002F8ADB /* LaunchScreen.xib in Resources */,
+				FA9E01271BB668DB002F8ADB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9E012D1BB668DB002F8ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA9E01121BB668DB002F8ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9E01221BB668DB002F8ADB /* ViewController.m in Sources */,
+				FAF514191BB6A4240058661A /* OrdersListViewController.m in Sources */,
+				FA9E011F1BB668DB002F8ADB /* AppDelegate.m in Sources */,
+				FA9E01441BB66FB1002F8ADB /* TitleCell.m in Sources */,
+				FA9E01411BB66F42002F8ADB /* OrderInfoCell.m in Sources */,
+				FA9E011C1BB668DB002F8ADB /* main.m in Sources */,
+				FA3F55391BB98BB1007B5152 /* UIImage+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9E012B1BB668DB002F8ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9E01361BB668DB002F8ADB /* CognitiveCloudsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA9E01311BB668DB002F8ADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA9E01151BB668DB002F8ADB /* CognitiveClouds */;
+			targetProxy = FA9E01301BB668DB002F8ADB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA9E01231BB668DB002F8ADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9E01241BB668DB002F8ADB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA9E01281BB668DB002F8ADB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9E01291BB668DB002F8ADB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA9E01371BB668DB002F8ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA9E01381BB668DB002F8ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA9E013A1BB668DB002F8ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CognitiveClouds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA9E013B1BB668DB002F8ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CognitiveClouds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA9E013D1BB668DB002F8ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CognitiveCloudsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CognitiveClouds.app/CognitiveClouds";
+			};
+			name = Debug;
+		};
+		FA9E013E1BB668DB002F8ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CognitiveCloudsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CognitiveClouds.app/CognitiveClouds";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA9E01111BB668DB002F8ADB /* Build configuration list for PBXProject "Scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9E01371BB668DB002F8ADB /* Debug */,
+				FA9E01381BB668DB002F8ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9E01391BB668DB002F8ADB /* Build configuration list for PBXNativeTarget "CognitiveClouds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9E013A1BB668DB002F8ADB /* Debug */,
+				FA9E013B1BB668DB002F8ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9E013C1BB668DB002F8ADB /* Build configuration list for PBXNativeTarget "CognitiveCloudsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9E013D1BB668DB002F8ADB /* Debug */,
+				FA9E013E1BB668DB002F8ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA9E010E1BB668DB002F8ADB /* Project object */;
+}
