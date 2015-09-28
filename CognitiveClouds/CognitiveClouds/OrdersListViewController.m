@@ -95,7 +95,7 @@
     
     if (_didPull)
     {
-        CGFloat diff =  (ceilf(self.previousYOffset - scrollView.contentOffset.y)); //abs value to prevent bouncing effect
+        CGFloat diff =  (ceilf(self.previousYOffset - scrollView.contentOffset.y));
 
         if (self.tableView.contentOffset.y >= 0 )
         {
@@ -125,9 +125,7 @@
 
 - (void)setContentOffsetToZero
 {
-    CGPoint offset = self.tableView.contentOffset;
-    offset.y = 0;
-    self.tableView.contentOffset = offset;
+    self.tableView.contentOffset = CGPointZero;
 }
 
 - (void)scrollEnded
